@@ -1,104 +1,134 @@
 {
-    "productos": [
-      {
-        "id": 1,
-        "nombre": "Jugo de Zanahoria",
-        "precio": "31111"
-      },
-      {
-        "id": 2,
-        "nombre": "Jugo de Naranja",
-        "precio": "1"
-      },
-      {
-        "nombre": "Jugo de Naranja",
-        "precio": "300",
-        "id": 3
-      },
-      {
-        "nombre": "Rib Eye 800g",
-        "precio": "200",
-        "id": 4
-      },
-      {
-        "nombre": "Jugo de Fresa",
-        "precio": "200",
-        "id": 5
-      },
-      {
-        "id": 6,
-        "nombre": "Jugo de Zanahoria",
-        "precio": "31111"
-      },
-      {
-        "id": 7,
-        "nombre": "Jugo de Naranja",
-        "precio": "1"
-      },
-      {
-        "nombre": "Jugo de Naranja",
-        "precio": "300",
-        "id": 8
-      },
-      {
-        "nombre": "Rib Eye 800g",
-        "precio": "200",
-        "id": 9
-      },
-      {
-        "nombre": "Jugo de Fresa",
-        "precio": "200",
-        "id": 10
-      },
-      {
-        "id": 11,
-        "nombre": "Jugo de Zanahoria",
-        "precio": "31111"
-      },
-      {
-        "id": 12,
-        "nombre": "Jugo de Naranja",
-        "precio": "1"
-      },
-      {
-        "nombre": "Jugo de Naranja",
-        "precio": "300",
-        "id": 13
-      },
-      {
-        "nombre": "Rib Eye 800g",
-        "precio": "200",
-        "id": 14
-      },
-      {
-        "nombre": "Jugo de Fresa",
-        "precio": "200",
-        "id": 15
-      },
-      {
-        "id": 16,
-        "nombre": "Jugo de Zanahoria",
-        "precio": "31111"
-      },
-      {
-        "id": 17,
-        "nombre": "Jugo de Naranja",
-        "precio": "1"
-      },
-      {
-        "nombre": "Jugo de Naranja",
-        "precio": "300",
-        "id": 18
-      },
-      {
-        "nombre": "Rib Eye 800g",
-        "precio": "200",
-        "id": 19
-      },
-      {
-        "nombre": "Jugo de Fresa",
-        "precio": "200",
-        "id": 20
-      }
-    ]
-  }
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Jugo de Zanahoria",
+      "precio": "31111"
+    },
+    {
+      "id": 2,
+      "nombre": "Jugo de Naranja",
+      "precio": "1"
+    },
+    {
+      "nombre": "Jugo de Naranja",
+      "precio": "300",
+      "id": 3
+    },
+    {
+      "nombre": "Rib Eye 800g",
+      "precio": "200",
+      "id": 4
+    },
+    {
+      "nombre": "Jugo de Fresa",
+      "precio": "200",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "nombre": "Jugo de Zanahoria",
+      "precio": "31111"
+    },
+    {
+      "id": 7,
+      "nombre": "Jugo de Naranja",
+      "precio": "1"
+    },
+    {
+      "nombre": "Jugo de Naranja",
+      "precio": "300",
+      "id": 8
+    },
+    {
+      "nombre": "Rib Eye 800g",
+      "precio": "200",
+      "id": 9
+    },
+    {
+      "nombre": "Jugo de Fresa",
+      "precio": "200",
+      "id": 10
+    },
+    {
+      "id": 11,
+      "nombre": "Jugo de Zanahoria",
+      "precio": "31111"
+    },
+    {
+      "id": 12,
+      "nombre": "Jugo de Naranja",
+      "precio": "1"
+    },
+    {
+      "nombre": "Jugo de Naranja",
+      "precio": "300",
+      "id": 13
+    },
+    {
+      "nombre": "Rib Eye 800g",
+      "precio": "200",
+      "id": 14
+    },
+    {
+      "nombre": "Jugo de Fresa",
+      "precio": "200",
+      "id": 15
+    },
+    {
+      "id": 16,
+      "nombre": "Jugo de Zanahoria",
+      "precio": "31111"
+    },
+    {
+      "id": 17,
+      "nombre": "Jugo de Naranja",
+      "precio": "1"
+    },
+    {
+      "nombre": "Jugo de Naranja",
+      "precio": "300",
+      "id": 18
+    },
+    {
+      "nombre": "Rib Eye 800g",
+      "precio": "200",
+      "id": 19
+    },
+    {
+      "nombre": "Jugo de Fresa",
+      "precio": "200",
+      "id": 20
+    },
+    {
+      "nombre": "Compu",
+      "precio": 1300333,
+      "id": 21
+    },
+    {
+      "nombre": "Computadorcita",
+      "precio": 1600000,
+      "id": 22
+    },
+    {
+      "nombre": "por otro lao",
+      "precio": 230000,
+      "id": 23
+    },
+    {
+      "nombre": "mesa y silla",
+      "precio": 800000,
+      "id": 24
+    },
+    {
+      "nombre": "calentador",
+      "precio": 3425,
+      "id": 25
+    },
+    {
+      "nombre": "Jugo de Piña",
+      "precio": 1000,
+      "id": 26
+    }
+  ]
+}

@@ -4,11 +4,15 @@ import { useDispatch, useSelector } from 'react-redux';
 //actions de redux
 import { createNewProduct } from '../actions/productoActions';
 
-
-const NuevoProducto = () => {
+// history es el acceso a todas las varialbles de router para direccionar
+const NuevoProducto = ({history}) => {
 
     //useDispatch te crea una funcion
     const dispatch = useDispatch();
+
+    //acceder al state del store
+    const cargando = useSelector( state => state.productos.loading );
+    const error = useSelector( state => state.productos.error );
 
     const [nombre, guardarNombre ] = useState('');
     const [precio, guardarPrecio ] = useState(0);
@@ -29,6 +33,8 @@ const NuevoProducto = () => {
             nombre,
             precio
         })
+
+        history.push('/');
 
     }
 
@@ -68,6 +74,8 @@ const NuevoProducto = () => {
                                 className="btn btn-primary font-weight-bold text-uppercase d-block w-100"
                             >Agregar</button>
                         </form>
+                        { cargando ? <p>cargando</p> : null  }
+                        { error ? <p className="alert alert-danger p2 mt-4 text-center" >Hubo un error</p> : null  }
                     </div>
                 </div>
             </div>
