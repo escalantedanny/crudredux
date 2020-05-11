@@ -1,0 +1,104 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Jugo de Zanahoria",
+        "precio": "31111"
+      },
+      {
+        "id": 2,
+        "nombre": "Jugo de Naranja",
+        "precio": "1"
+      },
+      {
+        "nombre": "Jugo de Naranja",
+        "precio": "300",
+        "id": 3
+      },
+      {
+        "nombre": "Rib Eye 800g",
+        "precio": "200",
+        "id": 4
+      },
+      {
+        "nombre": "Jugo de Fresa",
+        "precio": "200",
+        "id": 5
+      },
+      {
+        "id": 6,
+        "nombre": "Jugo de Zanahoria",
+        "precio": "31111"
+      },
+      {
+        "id": 7,
+        "nombre": "Jugo de Naranja",
+        "precio": "1"
+      },
+      {
+        "nombre": "Jugo de Naranja",
+        "precio": "300",
+        "id": 8
+      },
+      {
+        "nombre": "Rib Eye 800g",
+        "precio": "200",
+        "id": 9
+      },
+      {
+        "nombre": "Jugo de Fresa",
+        "precio": "200",
+        "id": 10
+      },
+      {
+        "id": 11,
+        "nombre": "Jugo de Zanahoria",
+        "precio": "31111"
+      },
+      {
+        "id": 12,
+        "nombre": "Jugo de Naranja",
+        "precio": "1"
+      },
+      {
+        "nombre": "Jugo de Naranja",
+        "precio": "300",
+        "id": 13
+      },
+      {
+        "nombre": "Rib Eye 800g",
+        "precio": "200",
+        "id": 14
+      },
+      {
+        "nombre": "Jugo de Fresa",
+        "precio": "200",
+        "id": 15
+      },
+      {
+        "id": 16,
+        "nombre": "Jugo de Zanahoria",
+        "precio": "31111"
+      },
+      {
+        "id": 17,
+        "nombre": "Jugo de Naranja",
+        "precio": "1"
+      },
+      {
+        "nombre": "Jugo de Naranja",
+        "precio": "300",
+        "id": 18
+      },
+      {
+        "nombre": "Rib Eye 800g",
+        "precio": "200",
+        "id": 19
+      },
+      {
+        "nombre": "Jugo de Fresa",
+        "precio": "200",
+        "id": 20
+      }
+    ]
+  }
