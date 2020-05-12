@@ -6,11 +6,6 @@
       "precio": "31111"
     },
     {
-      "id": 2,
-      "nombre": "Jugo de Naranja",
-      "precio": "1"
-    },
-    {
       "nombre": "Jugo de Naranja",
       "precio": "300",
       "id": 3
@@ -29,11 +24,6 @@
       "id": 6,
       "nombre": "Jugo de Zanahoria",
       "precio": "31111"
-    },
-    {
-      "id": 7,
-      "nombre": "Jugo de Naranja",
-      "precio": "1"
     },
     {
       "nombre": "Jugo de Naranja",
@@ -79,11 +69,6 @@
       "id": 16,
       "nombre": "Jugo de Zanahoria",
       "precio": "31111"
-    },
-    {
-      "id": 17,
-      "nombre": "Jugo de Naranja",
-      "precio": "1"
     },
     {
       "nombre": "Jugo de Naranja",

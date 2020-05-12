@@ -5,7 +5,10 @@ import {
     AGREGAR_PRODUCTO_ERROR,
     COMENZAR_DESCARGA_PRODUCTO,
     DESCARGA_PRODUCTO_EXITO,
-    DESCARGA_PRODUCTO_ERROR
+    DESCARGA_PRODUCTO_ERROR,
+    ELIMINAR_PRODUCTO,
+    ELIMINAR_PRODUCTO_EXITO,
+    ELIMINAR_PRODUCTO_ERROR
 } from '../types';
 
 
@@ -13,7 +16,8 @@ import {
 const initialState = {
     productos : [],
     error : null,
-    loading: false
+    loading: false,
+    productoEliminar : null
 }
 
 export default function( state = initialState, action) {
@@ -32,6 +36,7 @@ export default function( state = initialState, action) {
             }
         case AGREGAR_PRODUCTO_ERROR:
         case DESCARGA_PRODUCTO_ERROR:
+        case ELIMINAR_PRODUCTO_ERROR:
             return {
                 ...state,
                 loading : false,
@@ -43,6 +48,17 @@ export default function( state = initialState, action) {
                 loading : false,
                 error : null,
                 productos : action.payload
+            }
+        case ELIMINAR_PRODUCTO:
+            return {
+                ...state,
+                productoEliminar : action.payload
+            }
+        case ELIMINAR_PRODUCTO_EXITO:
+            return {
+                ...state,
+                productos: state.productos.filter( producto => producto.id !== state.productoEliminar ),
+                productoEliminar : null
             }
         default:
             return state;
