@@ -1,11 +1,6 @@
 {
   "productos": [
     {
-      "id": 1,
-      "nombre": "Jugo de Zanahoria",
-      "precio": "31111"
-    },
-    {
       "nombre": "Jugo de Naranja",
       "precio": "300",
       "id": 3
@@ -17,13 +12,13 @@
     },
     {
       "nombre": "Jugo de Fresa",
-      "precio": "200",
+      "precio": "2000",
       "id": 5
     },
     {
       "id": 6,
       "nombre": "Jugo de Zanahoria",
-      "precio": "31111"
+      "precio": "36990"
     },
     {
       "nombre": "Jugo de Naranja",
@@ -129,6 +124,16 @@
       "nombre": "diafragma",
       "precio": 24234,
       "id": 29
+    },
+    {
+      "nombre": "dssdsd",
+      "precio": 1232312,
+      "id": 30
+    },
+    {
+      "nombre": "ds",
+      "precio": 2323,
+      "id": 31
     }
   ]
 }

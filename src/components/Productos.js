@@ -15,7 +15,8 @@ const Productos = () => {
         //mandar a llamar el action de producto action
         const llamarProductos = () => dispatch( mostrarProductoAction() ); 
         llamarProductos();
-    }, []);
+
+    }, [dispatch]);
 
     const productos = useSelector( state => state.productos.productos );
     const error = useSelector( state => state.productos.error );
