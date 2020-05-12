@@ -33,6 +33,7 @@ export function createNewProduct(producto) {
               })
 
         } catch (error) {
+
             dispatch( agregarProductoError(null) )
 
             Swal.fire({
@@ -68,19 +69,10 @@ export function mostrarProductoAction() {
 
         try {
             const respuesta = await clienteAxios.get('/productos');
-
             dispatch( mostrarProductoExito(respuesta.data) );
 
         } catch (error) {
-
             dispatch( mostrarProductoError() )
-
-            Swal.fire({
-                title: 'Error!',
-                text: 'Se a producido un Éxito',
-                icon: 'error',
-                confirmButtonText: 'Aceptar'
-              })
         }
     }
 }
