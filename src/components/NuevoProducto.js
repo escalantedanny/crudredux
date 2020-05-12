@@ -74,7 +74,6 @@ const NuevoProducto = ({history}) => {
                                 className="btn btn-primary font-weight-bold text-uppercase d-block w-100"
                             >Agregar</button>
                         </form>
-                        { cargando ? <p>cargando</p> : null  }
                         { error ? <p className="alert alert-danger p2 mt-4 text-center" >Hubo un error</p> : null  }
                     </div>
                 </div>

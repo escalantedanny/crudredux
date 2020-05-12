@@ -129,6 +129,21 @@
       "nombre": "Jugo de Piña",
       "precio": 1000,
       "id": 26
+    },
+    {
+      "nombre": "cocina",
+      "precio": 324453,
+      "id": 27
+    },
+    {
+      "nombre": "chanch",
+      "precio": 324234,
+      "id": 28
+    },
+    {
+      "nombre": "diafragma",
+      "precio": 24234,
+      "id": 29
     }
   ]
 }

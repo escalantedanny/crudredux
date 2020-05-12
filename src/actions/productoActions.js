@@ -1,7 +1,10 @@
 import {
     AGREGAR_PRODUCTO,
     AGREGAR_PRODUCTO_EXITO,
-    AGREGAR_PRODUCTO_ERROR
+    AGREGAR_PRODUCTO_ERROR,
+    COMENZAR_DESCARGA_PRODUCTO,
+    DESCARGA_PRODUCTO_EXITO,
+    DESCARGA_PRODUCTO_ERROR
 } from '../types';
 
 import clienteAxios from '../config/axios';
@@ -30,7 +33,7 @@ export function createNewProduct(producto) {
               })
 
         } catch (error) {
-            dispatch( agregarProductoError(true) )
+            dispatch( agregarProductoError(null) )
 
             Swal.fire({
                 title: 'Error!',
@@ -55,4 +58,44 @@ const agregarProductoExito = producto => ({
 const agregarProductoError = estado => ({
     type : AGREGAR_PRODUCTO_ERROR,
     payload : estado
+});
+
+
+//FUNCION QUE DESCARGA LOS PRODUCTOS DE LA BASE DE DATOS
+export function mostrarProductoAction() {
+    return async (dispatch) => {
+        dispatch( descargarProductosAction() )
+
+        try {
+            const respuesta = await clienteAxios.get('/productos');
+
+            dispatch( mostrarProductoExito(respuesta.data) );
+
+        } catch (error) {
+
+            dispatch( mostrarProductoError() )
+
+            Swal.fire({
+                title: 'Error!',
+                text: 'Se a producido un Éxito',
+                icon: 'error',
+                confirmButtonText: 'Aceptar'
+              })
+        }
+    }
+}
+
+const descargarProductosAction = () => ({
+    type : COMENZAR_DESCARGA_PRODUCTO,
+    payload : true
+});
+
+const mostrarProductoExito = productos => ({
+    type : DESCARGA_PRODUCTO_EXITO,
+    payload : productos
+});
+
+const mostrarProductoError = () => ({
+    type : DESCARGA_PRODUCTO_ERROR,
+    payload : true
 });
